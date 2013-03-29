@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AFFILIATE_ID</key>
+		<integer>-1</integer>
+		<key>COURSE_ID</key>
+		<integer>5</integer>
+		<key>COURSE_NAME</key>
+		<string>Salad</string>
+		<key>CUISINE</key>
+		<array>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>4</integer>
+				<key>NAME</key>
+				<string>North American</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>18</integer>
+				<key>NAME</key>
+				<string>United States</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CUISINE_ID</key>
+		<integer>18</integer>
+		<key>DIFFICULTY</key>
+		<integer>0</integer>
+		<key>DIRECTIONS</key>
+		<string>Drain Drain pineapple and cherries, saving juices
+
+Heat Heat the combined juices and use to mix the gelatin
+
+Mix Mix a small portion of hot juices with cream cheese until it is a thin paste.
+
+Add Add the cola to gelatin mix and stir in the cream cheese mixture, this may require an electric mixer to smooth out the lumps.
+
+Stir Stir in cherries, pineapple, and nuts.
+
+Pour Pour into a gelatin pan or mould, and refrigerate until set.</string>
+		<key>DIRECTIONS_LIST</key>
+		<array>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Drain pineapple and cherries, saving juices</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Drain</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Heat the combined juices and use to mix the gelatin</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Heat</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Mix a small portion of hot juices with cream cheese until it is a thin paste.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Mix</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Add the cola to gelatin mix and stir in the cream cheese mixture, this may require an electric mixer to smooth out the lumps.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Add</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Stir in cherries, pineapple, and nuts.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Stir</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Pour into a gelatin pan or mould, and refrigerate until set.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Pour</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<key>EQUIPMENT</key>
+		<array>
+			<dict>
+				<key>AFFILIATE_URL</key>
+				<string></string>
+				<key>CATEGORY</key>
+				<string>Utensils</string>
+				<key>DESCRIPTION</key>
+				<string>Balloon whisk</string>
+				<key>EQUIPMENT_ID</key>
+				<integer>1049</integer>
+				<key>NAME</key>
+				<string>Balloon whisk</string>
+				<key>PARENT_ID</key>
+				<integer>3</integer>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>AFFILIATE_URL</key>
+				<string></string>
+				<key>CATEGORY</key>
+				<string>Appliances</string>
+				<key>DESCRIPTION</key>
+				<string>Hand Mixer</string>
+				<key>EQUIPMENT_ID</key>
+				<integer>1086</integer>
+				<key>NAME</key>
+				<string>Hand Mixer</string>
+				<key>PARENT_ID</key>
+				<integer>4</integer>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>AFFILIATE_URL</key>
+				<string></string>
+				<key>CATEGORY</key>
+				<string>Oven and Baking</string>
+				<key>DESCRIPTION</key>
+				<string>Round cake pan</string>
+				<key>EQUIPMENT_ID</key>
+				<integer>1040</integer>
+				<key>NAME</key>
+				<string>Round cake pan</string>
+				<key>PARENT_ID</key>
+				<integer>2</integer>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+		</array>
+		<key>INGREDIENTS</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cherry gelatin</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>packages</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>crushed pineapple</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>small can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>black cherries</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1/2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cream cheese</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>small package</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cola</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>nuts</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>INGREDIENTS_TREE</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cherry gelatin</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>packages</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>crushed pineapple</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>small can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>black cherries</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1/2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cream cheese</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>small package</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>cola</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>nuts</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>KEYWORDS</key>
+		<string></string>
+		<key>MEASUREMENT_SYSTEM</key>
+		<integer>0</integer>
+		<key>NAME</key>
+		<string>Gelatin Salad</string>
+		<key>NOTE</key>
+		<string></string>
+		<key>NOTES_LIST</key>
+		<array/>
+		<key>NUTRITION</key>
+		<string></string>
+		<key>PREP_TIMES</key>
+		<array/>
+		<key>PUBLICATION_PAGE</key>
+		<string></string>
+		<key>SERVER_ID</key>
+		<integer>-1</integer>
+		<key>SERVINGS</key>
+		<integer>0</integer>
+		<key>SOURCE</key>
+		<string>Margaret Cochran</string>
+		<key>SUMMARY</key>
+		<string></string>
+		<key>TYPE</key>
+		<integer>102</integer>
+		<key>URL</key>
+		<string></string>
+		<key>YIELD</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

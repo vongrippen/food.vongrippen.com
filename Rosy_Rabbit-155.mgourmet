@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AFFILIATE_ID</key>
+		<integer>-1</integer>
+		<key>COURSE_ID</key>
+		<integer>0</integer>
+		<key>COURSE_NAME</key>
+		<string>--</string>
+		<key>CUISINE</key>
+		<array>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>4</integer>
+				<key>NAME</key>
+				<string>North American</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>18</integer>
+				<key>NAME</key>
+				<string>United States</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CUISINE_ID</key>
+		<integer>18</integer>
+		<key>DIFFICULTY</key>
+		<integer>0</integer>
+		<key>DIRECTIONS</key>
+		<string>Heat Heat soup in top of double boiler; add cheese and heat until melted, stirring constantly.
+
+Add Add mustard and Worcestershire sauce to beaten egg yolks; slowly stir in tomato mixture.
+
+Fold Fold in beaten egg whites
+
+Heat Heat thoroughly over hot water, stirring occasionally.
+
+Serve Serve on hot toast or crackers. Garnish with chopped parsley and frizzled dried beef, crisp bacon, or ham.</string>
+		<key>DIRECTIONS_LIST</key>
+		<array>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Heat soup in top of double boiler; add cheese and heat until melted, stirring constantly.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Heat</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Add mustard and Worcestershire sauce to beaten egg yolks; slowly stir in tomato mixture.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Add</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Fold in beaten egg whites</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Fold</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Heat thoroughly over hot water, stirring occasionally.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Heat</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Serve on hot toast or crackers. Garnish with chopped parsley and frizzled dried beef, crisp bacon, or ham.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Serve</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<key>INGREDIENTS</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>condensed tomato soup</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>American cheese</string>
+				<key>DIRECTION</key>
+				<string>grated</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cups</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>prepared mustard</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>teaspoon</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>Worcestershire sauce</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>teaspoon</string>
+				<key>QUANTITY</key>
+				<string>1/2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>egg whites</string>
+				<key>DIRECTION</key>
+				<string>stiff-beaten</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>egg yolks</string>
+				<key>DIRECTION</key>
+				<string>beaten</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+		</array>
+		<key>INGREDIENTS_TREE</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>condensed tomato soup</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>can</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>American cheese</string>
+				<key>DIRECTION</key>
+				<string>grated</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cups</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>prepared mustard</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>teaspoon</string>
+				<key>QUANTITY</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>Worcestershire sauce</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>teaspoon</string>
+				<key>QUANTITY</key>
+				<string>1/2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>egg whites</string>
+				<key>DIRECTION</key>
+				<string>stiff-beaten</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>egg yolks</string>
+				<key>DIRECTION</key>
+				<string>beaten</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+		</array>
+		<key>KEYWORDS</key>
+		<string></string>
+		<key>MEASUREMENT_SYSTEM</key>
+		<integer>0</integer>
+		<key>NAME</key>
+		<string>Rosy Rabbit</string>
+		<key>NOTE</key>
+		<string></string>
+		<key>NOTES_LIST</key>
+		<array/>
+		<key>NUTRITION</key>
+		<string></string>
+		<key>PREP_TIMES</key>
+		<array/>
+		<key>PUBLICATION_PAGE</key>
+		<string></string>
+		<key>SERVER_ID</key>
+		<integer>-1</integer>
+		<key>SERVINGS</key>
+		<integer>4</integer>
+		<key>SOURCE</key>
+		<string>Margaret Cochran</string>
+		<key>SUMMARY</key>
+		<string>For a flair, fix in chafing dish</string>
+		<key>TYPE</key>
+		<integer>102</integer>
+		<key>URL</key>
+		<string></string>
+		<key>YIELD</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,529 @@
+/*
+
+	bookish1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	hope you enjoy it :)
+
+*/
+*
+/* Styles for ingredients list */
+.ingr-list { list-style-type: none; text-indent: -20px; }
+.ingr-sub-list { list-style-type: none; text-indent: -40px; }
+.ingr-div { font-style:italic; font-weight:bold; }
+.ingr-unit { font-weight:bold; }
+.ingr-meas { color:#003399; }
+.ingr-descr { }
+.recipe-image { width:180px; margin: 0px 0px 0px -10px; padding: 0px; border: 1px solid #E9F1F5;}
+.affiliate-image { width:165px; margin: 0px 0px 0px 0px; padding: 0px; border: 1px solid #E9F1F5;}
+.summary-note { padding-top: 0px; }
+
+/* Styles for prep time list */
+.prep-list
+{
+	margin: 0px; padding: 0px; list-style: none;
+	padding:4px;
+}
+.prep-list-item
+{ 	
+	margin-top: 0px; margin-bottom: 0px; padding: 1px 0 1px 14px;
+}
+
+/* Styles for equipment list */
+.equip-list
+{
+	margin: 0px; padding: 0px; list-style: none;
+	padding:4px;
+}
+.equip-list-item
+{ 	
+	margin-top: 0px; margin-bottom: 0px; padding: 1px 0 1px 14px;
+}
+
+/* Style images for related items */
+.related-img { padding-right: 4px; padding-bottom: 3px; vertical-align:middle; }
+
+/* Style images for image marker on the index pages, style the index list */
+.index-list { list-style-type: none; }
+.index-list-item { list-style-type: none; text-indent: -20px; }
+.index-img { padding-left: 4px; vertical-align:middle; }
+.index-icon { padding-right: 4px; vertical-align:middle; }
+
+.download-img { padding-right: 4px; vertical-align:middle; border: 0px; }
+
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+background: #fff url('http://food.vongrippen.com//images/bg.gif');
+font-size: 12px;
+font-family: "trebuchet ms", helvetica, sans-serif;
+color: #857D74;
+}
+
+p
+{
+display: block;
+text-align: justify;
+}
+
+a
+{
+color: #D97900;
+text-decoration: underline;
+}
+
+a:hover
+{
+text-decoration: none;
+background-color: #D97900;
+color: #FFFAF3;
+}
+
+em
+{
+font-style: italic;
+}
+
+.date
+{
+font-family: georgia, "times new roman", serif;
+font-size: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,th
+{
+font-family: georgia, "times new roman", serif;
+text-transform: lowercase;
+font-weight: normal;
+}
+
+.foot
+{
+height: 1px;
+line-height: 1px;
+clear: both;
+}
+
+.divider
+{
+border-bottom: solid 1px #F6F3F1;
+}
+
+th strong
+{
+color: #fff;
+}
+
+table
+{
+border-collapse: collapse;
+width: 100%;
+}
+
+th
+{
+background: #824900 url('http://food.vongrippen.com//images/thbg.gif') repeat-x;
+height: 29px;
+padding-left: 11px;
+padding-right: 11px;
+color: #fff;
+text-align: left;
+border-left: solid 1px #A8814D;
+border-bottom: solid 2px #ffffff;
+}
+
+tr
+{
+height: 30px;
+}
+
+td
+{
+padding-left: 11px;
+padding-right: 11px;
+border-left: solid 1px #EED9C3;
+border-bottom: solid 1px #ffffff;
+}
+
+td.first,th.first
+{
+border-left: 0px;
+}
+
+tr.rowA
+{
+background: #FFF0DE url('http://food.vongrippen.com//images/trbg1.gif') repeat-x;
+}
+
+tr.rowB
+{
+background: #FFFAF4 url('http://food.vongrippen.com//images/trbg2.gif') repeat-x;
+}
+
+#outer
+{
+width: 698px;
+background: #fff url('http://food.vongrippen.com//images/mainbg.gif');
+margin: 20px auto 0px auto;
+padding: 10px 13px 0px 13px;
+}
+
+#outer2
+{
+width: 724px;
+height: 3px;
+font-size: 0px;
+line-height: 0px;
+padding: 0px;
+background: #fff url('http://food.vongrippen.com//images/mainbg2.gif');
+margin: 0px auto 0px auto;
+}
+
+#inner
+{
+background-image: url('http://food.vongrippen.com//images/cbg2.gif');
+background-repeat: repeat-y;
+}
+
+#header
+{
+position: relative;
+height: 98px;
+background-image: url('http://food.vongrippen.com//images/headbg.gif');
+overflow: hidden;
+}
+
+#header h1
+{
+position: absolute;
+bottom: 14px;
+font-size: 26px;
+padding-left: 26px;
+color: #fff;
+overflow: hidden;
+}
+
+#header h1 strong
+{
+color: #fff;
+}
+
+#header h1 span
+{
+color: #D97900;
+}
+
+#menu
+{
+position: absolute;
+right: 0px;
+padding-right: 15px;
+bottom: 4px;
+color: #A75300;
+font-size: 10px;
+}
+
+#menu ul
+{
+list-style: none;
+}
+
+#menu li
+{
+float: left;
+border-left: solid 1px #A75300;
+padding-left: 8px;
+margin-left: 8px;
+}
+
+#menu li.first
+{
+margin-left: 0px;
+padding-left: 0px;
+border-left: 0px;
+}
+
+#menu a
+{
+color: #fff;
+}
+
+#xbgA
+{
+height: 31px;
+width: 500px;
+position: absolute;
+top: 0px;
+background-image: url('http://food.vongrippen.com//images/cbg1.gif');
+z-index: 1;
+}
+
+#xbgB
+{
+position: relative;
+height: 32px;
+width: 500px;
+background-image: url('http://food.vongrippen.com//images/cbg3.gif');
+z-index: 1;
+}
+
+#main
+{
+position: relative;
+width: 500px;
+margin: 3px -500px 0px 0px;
+float: left;
+}
+
+#main_inner
+{
+padding: 10px 28px 18px 18px;
+position: relative;
+z-index: 5;
+}
+
+#main ul
+{
+list-style: none;
+}
+
+#main li
+{
+padding-left: 0px;
+/*background-image: url('http://food.vongrippen.com//images/bullet.gif');*/
+background-repeat: no-repeat;
+background-position: 0px 6px;
+}
+
+#main h2,h3
+{
+color: #6C3C1E;
+}
+
+#main h2
+{
+font-size: 22px;
+background-image: url('http://food.vongrippen.com//images/db1.gif');
+background-repeat: no-repeat;
+height: 60px;
+padding-left: 22px;
+margin-bottom: -15px;
+}
+
+#main h3
+{
+font-size: 13px;
+background-image: url('http://food.vongrippen.com//images/db2.gif');
+background-repeat: no-repeat;
+height: 50px;
+padding-left: 22px;
+margin-bottom: -15px;
+}
+
+#main p
+{
+margin-bottom: 14px;
+}
+
+#main p strong
+{
+color: #725D46;
+}
+
+#main .content
+{
+position: relative;
+padding-left: 22px;
+}
+
+
+img.cpic
+{
+position: relative;
+top: -8px;
+background-image: url('http://food.vongrippen.com//images/imgbg.gif');
+width: 97px;
+height: 73px;
+padding: 10px;
+}
+
+img.right
+{
+float: right;
+margin-left: 14px;
+}
+
+#main .divider
+{
+margin: 20px 0px 20px 0px;
+}
+
+#ccol1
+{
+position: relative;
+width: 202px;
+float: left;
+border-right: solid 1px #F6F3F1;
+padding-right: 20px;
+}
+
+#ccol2
+{
+position: relative;
+width: 202px;
+margin-left: 242px;
+}
+
+#side
+{
+position: relative;
+float: right;
+width: 194px;
+margin: 3px 0px 0px 3px;
+}
+
+#side h3
+{
+background-image: url('http://food.vongrippen.com//images/rhbg.gif');
+width: 180px;
+height: 23px;
+color: #fff;
+font-size: 11px;
+padding: 9px 0px 0px 14px;
+}
+
+#side .content
+{
+background-image: url('http://food.vongrippen.com//images/rhbg2.gif');
+background-repeat: repeat-x;
+padding: 22px 14px 0px 14px;
+margin: 3px 0px 20px 0px;
+
+}
+
+#side ul
+{
+list-style: none;
+}
+
+#side li
+{
+border-top: solid 1px #F6F3F1;
+padding-top: 5px;
+margin: 5px 0px 0px 0px;
+}
+
+#side li.first
+{
+border-top: 0px;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+#side .divider
+{
+margin: 14px 0px 14px 0px;
+}
+
+#footer
+{
+width: 698px;
+margin: 12px auto 0px auto;
+padding-bottom: 24px;
+text-align: center;
+color: #6495A3;
+}
+
+#footer a
+{
+color: #7DAFBD;
+}
+
+#footer a:hover
+{
+background-color: #7DAFBD;
+color: #E8FAFF;
+}
+
+/* Styles for directions and directions list */
+.directions-text-even, .directions-text
+{
+	font-size: 100%;
+	line-height: 1.3em;
+ 	color: #2A2A2A;
+ 	background-color: transparent;
+ 	padding-bottom:5px;
+}
+.directions-text-even { background-color: transparent; }
+
+.directions-table { width:100%; border-spacing:4px; border-collapse:collapse; }
+.directions-image-box { width:125px; height:100px; vertical-align:middle; background-color:transparent; padding:4px; }
+.directions-image-empty {  width:125px; height:100px; vertical-align:middle; background-color:transparent; padding:4px; }
+.directions-image { width:125px; display: block; float:right; margin-left: 6px; margin-bottom: 5px; margin-right: auto; border: 3px solid #FFF; }
+.directions-text-box-even, .directions-text-box
+{
+	vertical-align:middle;
+	padding:10px;
+	font-size: 110%;
+	line-height: 1.3em;
+ 	color: #2A2A2A;
+ 	background-color: transparent;
+}
+.directions-text-box-even { background-color: transparent; }
+
+.directions-label { font-weight: bold; }
+.directions-highlight, .directions-step { font-weight: bold; font-size: 200%; color: #CE6600; vertical-align:top; padding-right:10px; padding-bottom:5px; float:left; }
+.directions-highlight { color: #Red; }
+
+.directions-no-image { display: block; margin-left: auto; margin-right: auto; background: transparent; }
+
+/* Styles for notes and notes list */
+.notes-text-even, .notes-text
+{
+	font-size: 100%;
+	line-height: 1.3em;
+ 	color: #000000;
+ 	background-color: #FAFBFC;
+}
+.notes-text-even { background-color: #FAFBFC; }
+
+.notes-table { width:100%; border-spacing:4px; border-collapse:collapse; }
+.notes-image-box-even, .notes-image-box
+{
+	border: 1px solid #9FA6AE; width:125px; height:100px; vertical-align:middle; background-color:#FAFBFC; padding:4px;
+}
+.notes-image-box-even { background-color: #FAFBFC; }
+.notes-image-empty-even, .notes-image-empty
+{
+	border: 1px solid #9FA6AE; width:125px; height:100px; vertical-align:middle; background-color:#FAFBFC; padding:4px;
+}
+.notes-image-empty-even { background-color: #FAFBFC; }
+.notes-image { width:125px; display: block; margin-left: auto; margin-right: auto; 	margin: 5px; border: 3px solid #FFF; }
+.notes-text-box-even, .notes-text-box
+{
+	border: 1px solid #9FA6AE;
+	vertical-align:top; padding:10px;
+	font-size: 110%;
+	line-height: 1.3em;
+ 	color: #000000;
+ 	background-color: #FAFBFC;
+}
+.notes-text-box-even { background-color: #FAFBFC; }
+
+.notes-no-image { display: block; margin-left: auto; margin-right: auto; }
+.note-type-icon { float:left; padding: 0px 5px 5px 0px; }
+
+.note-header { vertical-align:middle; padding: 3px 0px 3px 5px; font-weight: bolder; text-shadow: 1px 1px 1px #000; font-size: 110%; line-height: 1.3em; color: #FFFFFF; }
+
+.wine-note-text
+{
+	font-size: 110%;
+	line-height: 130%;
+ 	color: #000000;
+ 	background-color: transparent;
+	margin: 0px 0px 6px 0px;
+	padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AFFILIATE_ID</key>
+		<integer>-1</integer>
+		<key>COURSE_ID</key>
+		<integer>0</integer>
+		<key>COURSE_NAME</key>
+		<string>--</string>
+		<key>CUISINE</key>
+		<array>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>4</integer>
+				<key>NAME</key>
+				<string>North American</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>CUISINE_ID</key>
+				<integer>18</integer>
+				<key>NAME</key>
+				<string>United States</string>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CUISINE_ID</key>
+		<integer>18</integer>
+		<key>DIFFICULTY</key>
+		<integer>0</integer>
+		<key>DIRECTIONS</key>
+		<string>Beat Put cheese and garlic salt in small bowl, beat in vinegar.
+
+Gradually Gradually add oil, beating constantly with rotary beater.</string>
+		<key>DIRECTIONS_LIST</key>
+		<array>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Put cheese and garlic salt in small bowl, beat in vinegar.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Beat</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>DIRECTION_TEXT</key>
+				<string>Gradually add oil, beating constantly with rotary beater.</string>
+				<key>IS_HIGHLIGHTED</key>
+				<false/>
+				<key>LABEL_TEXT</key>
+				<string>Gradually</string>
+				<key>VARIATION_ID</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<key>EQUIPMENT</key>
+		<array>
+			<dict>
+				<key>AFFILIATE_URL</key>
+				<string></string>
+				<key>CATEGORY</key>
+				<string>Appliances</string>
+				<key>DESCRIPTION</key>
+				<string>Hand Mixer</string>
+				<key>EQUIPMENT_ID</key>
+				<integer>1086</integer>
+				<key>NAME</key>
+				<string>Hand Mixer</string>
+				<key>PARENT_ID</key>
+				<integer>4</integer>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>AFFILIATE_URL</key>
+				<string></string>
+				<key>CATEGORY</key>
+				<string>Stove Top</string>
+				<key>DESCRIPTION</key>
+				<string>Mixing bowl</string>
+				<key>EQUIPMENT_ID</key>
+				<integer>1014</integer>
+				<key>NAME</key>
+				<string>Mixing bowl</string>
+				<key>PARENT_ID</key>
+				<integer>1</integer>
+				<key>USER_ADDED</key>
+				<false/>
+			</dict>
+		</array>
+		<key>INGREDIENTS</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>blue cheese</string>
+				<key>DIRECTION</key>
+				<string>crumbled</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>2/3</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>vinegar</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>tablespoons</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>salad oil</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>1/4</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>garlic salt</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>dash</string>
+			</dict>
+		</array>
+		<key>INGREDIENTS_TREE</key>
+		<array>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>blue cheese</string>
+				<key>DIRECTION</key>
+				<string>crumbled</string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>2/3</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>vinegar</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>tablespoons</string>
+				<key>QUANTITY</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>salad oil</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string>cup</string>
+				<key>QUANTITY</key>
+				<string>1/4</string>
+			</dict>
+			<dict>
+				<key>DESCRIPTION</key>
+				<string>garlic salt</string>
+				<key>DIRECTION</key>
+				<string></string>
+				<key>INCLUDED_RECIPE_ID</key>
+				<integer>-1</integer>
+				<key>IS_DIVIDER</key>
+				<false/>
+				<key>IS_MAIN</key>
+				<false/>
+				<key>MEASUREMENT</key>
+				<string></string>
+				<key>QUANTITY</key>
+				<string>dash</string>
+			</dict>
+		</array>
+		<key>KEYWORDS</key>
+		<string></string>
+		<key>MEASUREMENT_SYSTEM</key>
+		<integer>0</integer>
+		<key>NAME</key>
+		<string>Blue-Cheese Dressing</string>
+		<key>NOTE</key>
+		<string></string>
+		<key>NOTES_LIST</key>
+		<array/>
+		<key>NUTRITION</key>
+		<string></string>
+		<key>PREP_TIMES</key>
+		<array/>
+		<key>PUBLICATION_PAGE</key>
+		<string>Women's Day Magazine, October 1952</string>
+		<key>SERVER_ID</key>
+		<integer>-1</integer>
+		<key>SERVINGS</key>
+		<integer>0</integer>
+		<key>SOURCE</key>
+		<string>Margaret Cochran</string>
+		<key>SUMMARY</key>
+		<string>For a salad with a special tang</string>
+		<key>TYPE</key>
+		<integer>102</integer>
+		<key>URL</key>
+		<string></string>
+		<key>YIELD</key>
+		<string>1 cup</string>
+	</dict>
+</array>
+</plist>
